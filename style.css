@@ -1,0 +1,51 @@
+body {
+
+   background-color: hsl(30, 54%, 90%) ;
+   font-family: "Outfit", sans-serif;
+}
+
+
+
+.container-sm {
+    max-width: 600px;
+    border: 1px solid white;
+}
+
+
+.h1 , .h2, .h3 {
+    font-family: Young serif;
+    font-size: 25px;
+    color: hsl(14, 45%, 36%);
+}
+
+.firstbox {
+    background-color: hsla(332, 51%, 32%, 0.164);
+    border-radius: 20px;
+    border: 1px solid white;
+    line-height: 2;
+}
+
+
+.h {
+    color: hsl(332, 51%, 32%);
+}
+
+li::marker {
+  color: hsl(332, 51%, 32%);      
+  font-size: 1em; 
+}
+
+ul span , ol span {
+    font-weight: 650;
+    color:hsl(30, 10%, 34%);
+}
+
+ td:nth-of-type(even) {
+color: hsl(14, 45%, 36%);
+font-weight: 650;
+}
+
+.mainheading {
+    font-size: 2em;
+     font-family: Young serif;
+}
